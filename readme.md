@@ -99,14 +99,14 @@ or if you're Locally hosting, create a file named `config.env` in the root direc
 An example of `config.env` file:
 
 ```py
-API_ID=12345
-API_HASH=esx576f8738x883f3sfzx83
-BOT_TOKEN=55838383:yourtbottokenhere
-BIN_CHANNEL=-100
+API_ID=25617967
+API_HASH=10555bea1cdfc7d2303fc13b7fd187cc
+BOT_TOKEN=7121258393:AAESbiKCxK0D67vBvK0NR8WApTbXQBbbo7E
+BIN_CHANNEL=-1002018451638
 PORT=8080
 FQDN=your_server_ip
-OWNER_ID=your_user_id
-DATABASE_URL=mongodb_uri
+OWNER_ID=6567324192
+DATABASE_URL=mongodb+srv://satyajeetkumarofficial:Guriya50@cluster0.dmmijuh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
   </details>
 
