@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '25617967'))
     API_HASH = str(getenv('API_HASH', '10555bea1cdfc7d2303fc13b7fd187cc'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN','6802407570:AAFiRtNmzkmgQVkY_vfBuORCVfLY7x6MY9U'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN','7399046982:AAE1mmw8Io-KXrL21J-3hx1dJE-fRLxNDps'))
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -36,5 +36,5 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://satyajeetkumarofficial:Guriya50@cluster0.dmmijuh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'CinemasNo1'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'FastToLinkFastDownloading'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
